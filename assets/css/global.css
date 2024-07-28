@@ -14,6 +14,18 @@ body { background-color: #D5CEA3; }
 
 /* ================= ENDS ================ */
 
+header {
+    width: 100%;
+    padding: 28px 8%;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 body {
     text-align: center;
     font-family: sans-serif;

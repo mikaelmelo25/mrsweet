@@ -1,11 +1,43 @@
 
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #52d3d8 }
 
-header.theme-dark   { background-color: #52d3d8 }
 
-header.theme-dark  h1 { color: var(--sky-400); }
+nav.theme-dark, nav.theme-dark ul.links-wrapper.active { 
+    background-color: #79ceda 
+}
 
-section.theme-dark   { background-color: #52d3d8 }
+header.theme-dark   { 
+    
+    background-color: #79ceda;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header.theme-dark  h1 { 
+    
+    color: var(--pink-400);
+  
+   
+}
+
+body
+{margin: 0px;
+ padding: 0px;
+}
+
+
+
+
+.img { width: 70%; height: auto; display: flex ;
+    justify-content: center;
+    align-items: center; }
+
+
+section.theme-dark   {
+     
+    background-color: #79ceda ;
+    
+ }
 
 footer.theme-dark   { background-color: #f266ab }
 
@@ -13,3 +45,10 @@ footer.theme-dark   { background-color: #f266ab }
 
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+menu {
+    image-rendering: crisp-edges;
+}
