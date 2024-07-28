@@ -1,117 +1,308 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-   
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MENU</title>
-    <meta name="description" content="Sample web page description goes here.">
 
-	<!-- Preload large image -->
+    <head>
 
-	<!-- Stylesheets -->
-    <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
-    <link rel="stylesheet" href="../assets/css/custom.css" />
+        <script src="https://cmp.osano.com/Azyq4eTwk0L8FGO2w/75dc6126-6162-4225-bbaa-1f61b539bd0a/osano.js"></script>
 
-	<!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- Font Awesome 6 icons. Delete if not using. -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <style>
-     
-		.img { width: 70%; height: auto; display: flex ;
-			justify-content: center;
-			align-items: center;
- }
-    </style>
-
-</head>
-
-
-<body>
-
-    <!-- menu and 'hero block' header -->
-    <nav class="theme-dark"><div class="container-menu">
-        <a href="../index.html" class="brand">
-            <img src="../assets/img/mrsmall.png" alt="Sample website logo"></a>
         
-        <div class="container-menu-links">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Mr Sweet </title>
+        <meta name="description" content="The cool place to choose your sweet delights!.">
+
+        <!-- Preload large image -->
+        <link rel="preload" href="assets/img/" as="image">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://lunevedy.com/assets/2.0/css/lunevedy.min.css" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
+        <link rel="stylesheet" href="assets/css/header.css" />
         
-        <div class="nav-toggle" id="nav-toggle-btn"><div class="bar-1"></div><div class="bar-2"></div><div class="bar-3"></div></div>
-            <ul class="links-wrapper">
-                <li><a href="../index.html">HOME</a></li>
-                <li><a href="#">MENU</a></li>
-                <li><a href="../about/index.html">ABOUT US</a></li>
-                <li><a href="../contact/index.html">CONTACT</a></li>
-            </ul>
+        
+
+        <!-- > Google Fonts-- >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJ4RH8PN9Q"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-NJ4RH8PN9Q');
+        </script>
+        
+
+        <!-- Font Awesome 6 icons. Delete if not using. -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            header .col-text h2 { line-height: 1.8 }
+            .col-1 > h3 { line-height: 1.8 }
+            </style>
+       
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+        <link rel="manifest" href="assets/img/site.webmanifest">
+      
+        <!-- Styles for Cookie Consent Popup Message  -->
+        <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
+
+        
+
+    </head>
+
+    <head>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
+
+
+    </head>
+
+
+    <body>
+
+        <!-- menu and 'hero block' header -->
+        <nav class="theme-dark">
+            
+            <div class="container-menu">
+
+                <a href="#" class="brand">
+                    <img src="assets/img/mrsmall.png" alt="logo">
+                </a>
+            
+                <div class="container-menu-links">
+            
+                    <div class="nav-toggle" id="nav-toggle-btn">
+                        <div class="bar-1"></div>
+                        <div class="bar-2"></div>
+                        <div class="bar-3"></div>
+                    </div>
+            
+                    <ul class="links-wrapper">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="menu/index.html">MENU</a></li>
+                        <li><a href="about/index.html">ABOUT</a></li>
+                        <li><a href="contact/index.html">CONTACT</a></li>
+                    </ul>
+                </div>
+
             </div>
-        </div>
-    </nav>
-    
-     <body>
+
+        </nav>
         
+            <!-- header starts here -->
+            <header class="theme-dark cols-2-half text-center-mobile">
+        
+                <div class="col-2 col-text">
 
-        <img src= "../assets/img/menu.jpeg" alt="" class="type2">
-     
-    </body>   
-    <!-- main content with sections -->
+                    <div class="badge">WELCOME</div>
+                    <h1><span class="name"> </span><span class="reveal-fade-in-header"> </span></h1>
+                    <h2>The cool place to choose your sweet delights!</h2>
+
+                    <a href="#" class="brand">
+                        <img src="assets/img/mrlast.png" alt="logo">
+                    </a>
+        
+                    <div class="container-btn">
+                        <a href="portfolio/index.html" class="btn btn-solid btn-soft"><span>Check Our Menu <menu type="context"></menu></span><i class="fa-regular fa-folder-open"></i></a><a href="contact/index.html" class="btn btn-outline btn-soft"><span>Find Us</span><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+        
+                </div>
+        
+                <div class="col-2 col-visual img-circle">
+                    <figure>
+                        <img src="assets/img/mrsweetlogo.png" alt="Placeholder image">
+                    </figure>
+                </div>
+
+            </header>
+            <!-- header ends here -->
+        
+        <!-- main content with sections -->
+        <main>
+
+        <!-- section starts here -->
+        <section class="theme-dark section-selector-1 w-1356px">
+
+            <div class="col-1 text-center w-820px">
+                <h2>Our Products</h2>
+                <h3>Below you can see some of our besties flavours. </h3>
+            </div>
+
+            <!-- Begin three-column flexbox grid -->
+            <div class="flex-cols-3 cols-gap-4">
+
+                <div class="col-3">
+                    <figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+                        <a href=https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin><img src="assets/img/mr3.jpeg" alt="Snazzy Crypto Wallet"></a>
+                    </figure>
+                    <h3>Bubble Waffles</h3>
+                    <p>A dark-themed responsive single-page website for a fictitious crypto wallet.</p>
+                    <a href="https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin" class="btn btn-solid btn-pill"><span>Buy now</span><i class="fas fa-shopping-cart"></i></a>
+                </div>
     
 
+                
+                <div class="col-3">
+                    <figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+                        <a href=https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin><img src="assets/img/mr2.jpeg" alt="Snazzy Crypto Wallet"></a>
+                    </figure>
+                    <h3>Açai</h3>
+                    <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+                    <a href="https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin" class="btn btn-solid btn-pill"><span>Buy now</span><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                <div class="col-3">
+                    <figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+                        <a href=https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin><img src="assets/img/icecrem.jpeg" alt="Snazzy Crypto Wallet"></a>
+                    </figure>
+                    <h3>Ice Cream</h3>
+                    <p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+                    <a href="https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin" class="btn btn-solid btn-pill"><span>Buy now</span><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                
 
-    <!-- footer -->
- 
-	<footer class="theme-dark text-center-desktop text-center-mobile">
+            </div>
+            <!-- End three-column flexbox grid -->
+            
+            <div class="col-1 text-center w-820px">
+                
+                <h3> </h3>
+            </div>
 
-		<h2>Mr. Sweet</h2>
+           
+            <div class="flex-cols-3 cols-gap-4">
 
-		<h3>Choose your sweet delights.</h3>
+                <div class="col-3">
+                    <figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+                        <a href=https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin><img src="assets/img/crepe3.png" alt="Snazzy Crypto Wallet"></a>
+                    </figure>
+                    <h3>Crepes</h3>
+                    <p>A dark-themed responsive single-page website for a fictitious crypto wallet.</p>
+                    <a href="https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin" class="btn btn-solid btn-pill"><span>Buy now</span><i class="fas fa-shopping-cart"></i></a>
+			</div>
 
-		<ul class="footer-links">
-			<li><a href="../index.html">HOME</a></li>
-			<li><a href="#">MENU</a></li>
-			<li><a href="../about/index.html">ABOUT US</a></li>
-            <li><a href="../contact/index.html">CONTACT</a></li>
-		</ul>
 
-		<ul class="footer-icons">
-			<li><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
-			<li><a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
-		</ul>
+                
+                <div class="col-3">
+                    <figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+                        <a href=https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin><img src="assets/img/mr1.jpeg" alt="Snazzy Crypto Wallet"></a>
+                    </figure>
+                    <h3>Cakes</h3>
+                    <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+                    <a href="https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin" class="btn btn-solid btn-pill"><span>Buy now</span><i class="fas fa-shopping-cart"></i></a>
+                </div>
+    
 
-		<div class="row">
-			<div class="col-md-12">
-				<p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
+                <div class="col-3">
+                    <figure class="photos-zoom photos-brightness" style="overflow: hidden;">
+                        <a href=https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin><img src="assets/img/milkshake.jpeg" alt="Snazzy Crypto Wallet"></a>
+                    </figure>
+                    <h3>Milk Shakes</h3>
+                    <p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+                    <a href="https://deliveroo.ie/menu/dublin/phibsborough-rd/mr-sweet-dublin" class="btn btn-solid btn-pill"><span>Buy now</span><i class="fas fa-shopping-cart"></i></a>
+                </div>
+                
 
-				<p>Copyright &copy; 2024 Mr.Sweet All rights reserved.</p>
+            </div>
+        </section>
+
+        	<!-- section starts here -->
+    <section class="theme-dark section-selector-1 w-1356px">
+
+		<!-- Begin four-column flexbox grid -->
+		<div class="flex-cols-4 mobile-col-2">
+
 			
-		   </div>
+            
+
+
 		</div>
+		<!-- Ends four-column flexbox grid -->
+    
 
-		<footer>
-			<footer>
-				<p></p>
-			</footer>
-		</footer>
-	  
+	</section>
+	<!-- section ends here -->
+   
+   
 
-	</footer>
+        <!-- section ends here -->
 
-    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+        </main>
 
-</body>
+        <!-- footer -->
+    
+        <footer class="theme-dark text-center-desktop text-center-mobile">
+
+            <h2>Mr. Sweet</h2>
+
+            <h3> Choose your sweet delights.</h3>
+
+            <ul class="footer-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu/index.html">MENU</a></li>
+                <li><a href="about/index.html">ABOUT</a></li>
+                <li><a href="contact/index.html">CONTACT</a></li>
+            </ul>
+
+            <ul class="footer-icons">
+                <li><a href="https://www.facebook.com/profile.php?id=100090222041837" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/explore/locations/120233844347934/mr-sweet/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+            </ul>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
+
+                    <p>Copyright &copy; 2024 Mr.Sweet All rights reserved.</p>
+                
+               </div>
+            </div>
+
+            <footer>
+                <footer>
+                    <p></p>
+                </footer>
+            </footer>
+          </footer>
+        
+        <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+        
+        <!-- JavaScript for Cookie Consent Popup Message -->
+        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000"
+                },
+                "button": {
+                    "background": "#f1d600"
+                }
+            },
+            "content": {
+                "href": "privacy.html"
+            }
+        });
+        </script>
+
+    </body>
+
 </html>
-
-
-
